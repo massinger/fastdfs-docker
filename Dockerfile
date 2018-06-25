@@ -1,6 +1,6 @@
 FROM massinger/centos-jdk
 
-LABEL maintainer "luhuiguo@gmail.com"
+LABEL maintainer "massinger@139.com"
 
 ENV FASTDFS_PATH=/opt/fdfs \
     FASTDFS_BASE_PATH=/var/fdfs \
