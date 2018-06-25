@@ -35,7 +35,7 @@ RUN git clone  --depth 1 https://github.com/happyfish100/fastdfs.git ${FASTDFS_P
  && rm -rf ${FASTDFS_PATH}/fastdfs
 
 
-EXPOSE 22122 23000 8080 8888
+EXPOSE 22122 23000 3080 3888
 VOLUME ["$FASTDFS_BASE_PATH", "/etc/fdfs"]   
 
 COPY conf/*.* /etc/fdfs/
