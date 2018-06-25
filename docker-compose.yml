@@ -2,14 +2,14 @@ version: '2'
 services:
   tracker:
     container_name: tracker
-    image: luhuiguo/fastdfs
+    image: massinger/fastdfs-docker
     command: tracker
     network_mode: host
     volumes:   
       - fdfs-tracker:/var/fdfs    
   storage:
     container_name: storage
-    image: luhuiguo/fastdfs
+    image: massinger/fastdfs-docker
     command: storage
     network_mode: host  
     links:
