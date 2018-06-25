@@ -1,4 +1,4 @@
-FROM centos:7
+FROM massinger/centos-jdk
 
 LABEL maintainer "luhuiguo@gmail.com"
 
